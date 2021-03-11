@@ -1,0 +1,91 @@
+* {
+  padding: 10;
+  margin: 10;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("https://www.oracle.com/a/ocom/img/cb78-covid-nih-covpn.jpg");
+  background-size: cover;
+}
+
+h2 {
+  background-image: linear-gradient(to right, blue, lightblue);
+  text-align: center;
+  padding: 15px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px black;
+  border-bottom: 2px solid black;
+  letter-spacing: 0.2em;
+}
+
+.filters {
+  margin: 10px;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+label {
+  color: whitesmoke;
+}
+
+.dropdown select {
+  padding: 5px;
+  width: 400px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.filters input {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 3px 0px;
+  cursor: pointer;
+}
+
+.filters .date_range {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.filters button {
+  padding: 5px;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+
+.details {
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 118, 118),
+    rgba(253, 5, 5, 0.158)
+  );
+  color: whitesmoke;
+}
+
+.details .details_table {
+  margin-left: 300px;
+}
+
+.details .details_table tr,
+th {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.details .details_table th {
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 20px rgb(45, 13, 228);
+}
+
+.details .details_table td {
+  letter-spacing: 0.1em;
+}
