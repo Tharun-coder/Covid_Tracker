@@ -150,7 +150,7 @@ function loadCountries() {
 
 let detail = document.createElement("tr");
 async function getData() {
-  let res = await fetch(url + `/${from_date.value}/${to_date.value}`, {
+  let res = await fetch(url + `${from_date.value}/${to_date.value}`, {
     method: "GET",
     body: JSON.stringify(),
     headers: {
